@@ -1,0 +1,70 @@
+.header {
+    background-color: #ef5350;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-bottom: 15px;
+    overflow: hidden;
+  
+    .title {
+      font-size: 30px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 0;
+      padding-right: 20px;
+      color: #ffffff;
+      margin-left: 10px;
+    }
+  
+    .right {
+      display: flex;
+      align-items: center;
+      margin-right: 10px;
+      
+  
+      @media (max-width: 768px) {
+        flex-direction: column;
+      }
+  
+      .search {
+        margin-right: 5px;
+        margin-top: 15px;
+        width: 100%;
+      }
+  
+      .filter {
+        display: flex;
+        align-items: center;
+        width: 100%;
+
+        .MuiFormControl-root {
+            width: 100%;
+        }
+  
+        @media (max-width: 768px) {
+          margin-top: 5px;
+        }
+  
+        label {
+          color: #ffffff;
+          margin-right: 5px;
+        }
+  
+        select {
+          padding: 5px;
+          font-size: 16px;
+          border-radius: 5px;
+          border: none;
+          margin-right: 5px;
+        }
+
+        button {
+            margin-left: 10px;
+        }
+      }
+    }
+  }
+  

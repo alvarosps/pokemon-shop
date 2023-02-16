@@ -1,0 +1,28 @@
+.filter {
+  position: relative;
+  display: inline-block;
+
+  label[for="move-select"] {
+    cursor: pointer;
+    display: inline-block;
+    min-width: 100px;
+  }
+
+  #move-select {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    min-width: 100px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border: none;
+    padding: 10px;
+    margin-top: 5px;
+
+    option {
+      padding: 10px;
+    }
+  }
+}

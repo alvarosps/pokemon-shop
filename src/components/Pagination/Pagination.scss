@@ -1,0 +1,76 @@
+.pagination-container {
+  margin-top: 1rem;
+  border-radius: 20px;
+
+  .pagination-buttons {
+    button {
+      border-radius: 20px;
+
+      &.active {
+        background-color: #007bff;
+        color: #fff;
+      }
+    }
+
+    .MuiButton-root {
+      background-color: #fff;
+      color: #007bff;
+      border: 1px solid #dee2e6;
+
+      &:hover {
+        background-color: #007bff;
+        color: #fff;
+      }
+
+      &.Mui-disabled {
+        color: #ccc;
+        border-color: #ccc;
+
+        &.MuiButton-textPrimary {
+          color: #ccc;
+        }
+      }
+
+      &.MuiButton-textPrimary {
+        color: #007bff;
+
+        &:hover {
+          color: #fff;
+        }
+      }
+
+      &.MuiButton-outlinedPrimary {
+        border-color: #007bff;
+
+        &:hover {
+          background-color: #007bff;
+          border-color: #007bff;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .pagination-select {
+    color: #007bff;
+    margin-left: 1rem;
+    border-radius: 20px;
+
+    .MuiSelect-icon {
+      color: #007bff;
+    }
+
+    .MuiOutlinedInput-root {
+      border-radius: 20px;
+      border-color: #dee2e6;
+    }
+
+    .MuiOutlinedInput-notchedOutline {
+      border-color: #dee2e6;
+    }
+
+    .MuiSelect-select:focus {
+      background-color: transparent;
+    }
+  }
+}

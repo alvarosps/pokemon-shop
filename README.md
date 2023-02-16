@@ -1,6 +1,6 @@
 *Pokemon Shop*
 
-- This project is an e-commerce website for purchasing Pokemon merchandise. It is built using React, TypeScript, and the PokeAPI.
+- This project is an simulation of e-commerce website for purchasing Pokemon merchandise. It is built using React, TypeScript, and the PokeAPI.
 **Features**
 
 - Browse a list of available Pokemon products.
